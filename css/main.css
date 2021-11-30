@@ -296,6 +296,12 @@ img {
   }
 }
 
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 @media screen and (max-width: 767px) {
   .header-nav__list {
     display: none;
@@ -350,12 +356,6 @@ img {
 
 .burger-icon:hover, .burger-icon:focus {
   fill: var(--accent-color);
-}
-
-.header-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 
 .mobile-menu {
